@@ -1,205 +1,232 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>collictive-project</title>
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/dark-mode.css" />
+    <link rel="stylesheet" href="../css/loading.css" />
+    <link rel="stylesheet" href="../css/event-read-more.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>collictive-project</title>
-  <link rel="stylesheet" href="../css/main.css" />
-  <link rel="stylesheet" href="../css/dark-mode.css" />
-  <link rel="stylesheet" href="../css/loading.css" />
-  <link rel="stylesheet" href="../css/event-read-more.css" />
-</head>
+  <body>
+    <header>
+      <nav>
+        <div class="container">
+          <div class="menu-flex">
+            <div class="img-1">
+              <img src="../images/home/logo-1.svg" alt="none!" />
+            </div>
 
-<body>
-  <header>
-    <nav>
+            <div class="hamburger" id="hamburger">
+              <img src="../images/home/toggle.svg" alt="none" />
+            </div>
+
+            <label class="switch">
+              <input type="checkbox" id="mode-btn" />
+              <span class="slider"></span>
+            </label>
+
+            <div class="menu-flex-3" id="nav-menu">
+              <div class="nav-menu">
+                <ul>
+                  <li><a href="../index.html">Home</a></li>
+                  <li><a href="./about-us.html">About us</a></li>
+                  <li><a href="./what-we-do.html">What We Do</a></li>
+                  <li><a href="./media.html">Media</a></li>
+                  <li><a href="./contact-us.html">Contact</a></li>
+                </ul>
+              </div>
+              <div class="btn">
+                <button>Donate</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="hero">
       <div class="container">
-        <div class="menu-flex">
-          <div class="img-1">
-            <img src="../images/home/logo-1.svg" alt="none!" />
+        <h1>Say no to using plastic and save Earth</h1>
+        <div class="hero--introduction">
+          <span
+            ><img src="../images/event/hero1.svg" alt="no img ?" /> 8 Brewery
+            Drive, Hudson, NH 03051, USA</span
+          >
+          <span
+            ><img src="../images/event/hero2.svg" alt="no img ?" /> September 3,
+            2021 8:30 AM</span
+          >
+        </div>
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="container">
+        <h2>About</h2>
+        <p>
+          Et morbi vitae lobortis nam odio. Faucibus vitae vel neque nullam in
+          in lorem platea mattis. Euismod aenean rhoncus scelerisque amet
+          tincidunt scelerisque aliquam. Luctus porttitor elit vel sapien,
+          accumsan et id ut est. Posuere molestie in turpis quam. Scelerisque in
+          viverra mi ut quisque. In sollicitudin sapien, vel nulla quisque
+          vitae. Scelerisque eget accumsan, non in. Posuere magna erat bibendum
+          amet, nisi eu id. <br /><br />
+
+          Viverra at diam nunc non ornare. Sed ultricies pulvinar nunc, lacus
+          sem. Tellus aliquam ut euismod cursus dui lectus. Ut amet, cras
+          volutpat dui. A bibendum viverra eu cras. Mauris morbi sed dignissim a
+          in nec aliquam fringilla et. Mattis elit dignissim nibh sit. Donec
+          arcu sed elit scelerisque tempor ornare tristique. Integer faucibus
+          duis praesent tempor feugiat ornare in. Erat libero egestas porttitor
+          nunc pellentesque mauris et pulvinar eget.
+        </p>
+        <img src="../images/event/Image (11).png" alt="no img ?" />
+        <p>
+          Et morbi vitae lobortis nam odio. Faucibus vitae vel neque nullam in
+          in lorem platea mattis. Euismod aenean rhoncus scelerisque amet
+          tincidunt scelerisque aliquam. Luctus porttitor elit vel sapien,
+          accumsan et id ut est. Posuere molestie in turpis quam. Scelerisque in
+          viverra mi ut quisque. In sollicitudin sapien, vel nulla quisque
+          vitae. Scelerisque eget accumsan, non in. Posuere magna erat bibendum
+          amet, nisi eu id.
+        </p>
+      </div>
+    </section>
+
+    <section id="event" class="event">
+      <div class="container">
+        <div class="event--wrapper">
+          <div class="news--top">
+            <h2 class="news--title">Our_Events</h2>
+            <span class="news--line"></span>
           </div>
+          <ul class="event--cards">
+            <li class="event--card">
+              <div class="event--date">
+                <span class="event--day">23</span>
+                <span class="event--month">sep</span>
+              </div>
+              <div class="event--plans">
+                <span class="next--event">Next Events</span>
+                <h4 class="next--event__title">
+                  Say no to plastic usage and save the planet
+                </h4>
+              </div>
+              <a href="./pages/Event.html" class="event--link">
+                <svg
+                  width="20"
+                  height="16"
+                  viewBox="0 0 19 16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M18.4571 8.70711C18.8476 8.31658 18.8476 7.68342 18.4571 7.29289L12.0931 0.928933C11.7026 0.538409 11.0695 0.538409 10.6789 0.928933C10.2884 1.31946 10.2884 1.95262 10.6789 2.34315L16.3358 8L10.6789 13.6569C10.2884 14.0474 10.2884 14.6805 10.6789 15.0711C11.0695 15.4616 11.7026 15.4616 12.0931 15.0711L18.4571 8.70711ZM0.25 9L17.75 9L17.75 7L0.25 7L0.25 9Z"
+                  ></path>
+                </svg>
+              </a>
+            </li>
+            <li class="event--card">
+              <div class="event--date">
+                <span class="event--day">25</span>
+                <span class="event--month">sep</span>
+              </div>
+              <div class="event--plans">
+                <span class="next--event">Next Events</span>
+                <h4 class="next--event__title">Weekly cleaning program</h4>
+              </div>
+              <a href="./pages/Event.html" class="event--link">
+                <svg
+                  width="19"
+                  height="16"
+                  viewBox="0 0 19 16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M18.4571 8.70711C18.8476 8.31658 18.8476 7.68342 18.4571 7.29289L12.0931 0.928933C11.7026 0.538409 11.0695 0.538409 10.6789 0.928933C10.2884 1.31946 10.2884 1.95262 10.6789 2.34315L16.3358 8L10.6789 13.6569C10.2884 14.0474 10.2884 14.6805 10.6789 15.0711C11.0695 15.4616 11.7026 15.4616 12.0931 15.0711L18.4571 8.70711ZM0.25 9L17.75 9L17.75 7L0.25 7L0.25 9Z"
+                  ></path>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
-          <div class="hamburger" id="hamburger">
-            <img src="../images/home/toggle.svg" alt="none" />
+    <footer>
+      <div class="container">
+        <div class="footer-flex">
+          <div class="footer-img">
+            <img src="../images/home/logo-2.svg" alt="none" />
           </div>
-
-          <label class="switch">
-            <input type="checkbox" id="mode-btn" />
-            <span class="slider"></span>
-          </label>
-
-          <div class="menu-flex-3" id="nav-menu">
-            <div class="nav-menu">
+          <div class="footer-menu">
+            <h4>
               <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="./about-us.html">About us</a></li>
-                <li><a href="./what-we-do.html">What We Do</a></li>
-                <li><a href="./media.html">Media</a></li>
-                <li><a href="./contact-us.html">Contact</a></li>
+                <li><a>Our team</a></li>
               </ul>
+            </h4>
+            <ul>
+              <li><a href="./about-us.html">About us</a></li>
+              <li><a href="./about-us.html">Team</a></li>
+              <li><a href="./what-we-do.html">What we do</a></li>
+              <li><a href="./contact-us.html">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-menu">
+            <h4>
+              <ul>
+                <li><a href="#">More</a></li>
+              </ul>
+            </h4>
+            <ul>
+              <li><a href="./project-read-more.html">Projects</a></li>
+              <li><a href="./event-read-more.html">Events</a></li>
+              <li><a href="./donation.html">Donate</a></li>
+              <li><a href="./blog-post-read-more.html">Blog</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-menu">
+            <h4>
+              <ul>
+                <li><a href="#">Connect </a></li>
+              </ul>
+            </h4>
+            <ul>
+              <li>
+                <a
+                  href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F%3Flocale2%3Duz_UZ"
+                  >Facebook</a
+                >
+              </li>
+              <li>
+                <a href="https://www.instagram.com/accounts/login/"
+                  >Instagram</a
+                >
+              </li>
+              <li><a href="https://twitter.com/explore">Twitter</a></li>
+              <li><a href="https://uz.linkedin.com/">Linkdin </a></li>
+            </ul>
+          </div>
+          <div>
+            <div class="h4text">
+              <h4>Subscribe to get latest updates</h4>
             </div>
-            <div class="btn">
-              <button>Donate</button>
+            <div class="input-flex">
+              <div class="input-brand">
+                <form>
+                  <input type="email" placeholder="Your email" />
+                </form>
+                <button type="submit">Subscribe</button>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </nav>
-  </header>
-
-  <section class="hero">
-    <div class="container">
-      <h1>Say no to using plastic and save Earth</h1>
-      <div class="hero--introduction">
-        <span><img src="../images/event/hero1.svg" alt="no img ?"> 8 Brewery Drive, Hudson, NH 03051, USA</span>
-        <span><img src="../images/event/hero2.svg" alt="no img ?"> September 3, 2021 8:30 AM</span>
-      </div>
-    </div>
-  </section>
-
-  <section class="about">
-    <div class="container">
-      <h2>About</h2>
-      <p>Et morbi vitae lobortis nam odio. Faucibus vitae vel neque nullam in in lorem platea mattis. Euismod aenean
-        rhoncus
-        scelerisque amet tincidunt scelerisque aliquam. Luctus porttitor elit vel sapien, accumsan et id ut est. Posuere
-        molestie in turpis quam. Scelerisque in viverra mi ut quisque. In sollicitudin sapien, vel nulla quisque vitae.
-        Scelerisque eget accumsan, non in. Posuere magna erat bibendum amet, nisi eu id. <br><br>
-
-        Viverra at diam nunc non ornare. Sed ultricies pulvinar nunc, lacus sem. Tellus aliquam ut euismod cursus dui
-        lectus. Ut
-        amet, cras volutpat dui. A bibendum viverra eu cras.
-        Mauris morbi sed dignissim a in nec aliquam fringilla et. Mattis elit dignissim nibh sit. Donec arcu sed elit
-        scelerisque tempor ornare tristique. Integer faucibus duis praesent tempor feugiat ornare in. Erat libero
-        egestas
-        porttitor nunc pellentesque mauris et pulvinar eget.</p>
-      <img src="../images/event/Image (11).png" alt="no img ?">
-      <p>Et morbi vitae lobortis nam odio. Faucibus vitae vel neque nullam in in lorem platea mattis. Euismod aenean
-        rhoncus
-        scelerisque amet tincidunt scelerisque aliquam. Luctus porttitor elit vel sapien, accumsan et id ut est. Posuere
-        molestie in turpis quam. Scelerisque in viverra mi ut quisque. In sollicitudin sapien, vel nulla quisque vitae.
-        Scelerisque eget accumsan, non in. Posuere magna erat bibendum amet, nisi eu id.</p>
-    </div>
-  </section>
-
-  <section id="event" class="event">
-    <div class="container">
-      <div class="event--wrapper">
-        <div class="news--top">
-          <h2 class="news--title">Our_Events</h2>
-          <span class="news--line"></span>
-        </div>
-        <ul class="event--cards">
-          <li class="event--card">
-            <div class="event--date">
-              <span class="event--day">23</span>
-              <span class="event--month">sep</span>
-            </div>
-            <div class="event--plans">
-              <span class="next--event">Next Events</span>
-              <h4 class="next--event__title">Say no to plastic usage and save the planet</h4>
-            </div>
-            <a href="./pages/Event.html" class="event--link">
-              <svg width="20" height="16" viewBox="0 0 19 16" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M18.4571 8.70711C18.8476 8.31658 18.8476 7.68342 18.4571 7.29289L12.0931 0.928933C11.7026 0.538409 11.0695 0.538409 10.6789 0.928933C10.2884 1.31946 10.2884 1.95262 10.6789 2.34315L16.3358 8L10.6789 13.6569C10.2884 14.0474 10.2884 14.6805 10.6789 15.0711C11.0695 15.4616 11.7026 15.4616 12.0931 15.0711L18.4571 8.70711ZM0.25 9L17.75 9L17.75 7L0.25 7L0.25 9Z">
-                </path>
-              </svg>
-            </a>
-          </li>
-          <li class="event--card">
-            <div class="event--date">
-              <span class="event--day">25</span>
-              <span class="event--month">sep</span>
-            </div>
-            <div class="event--plans">
-              <span class="next--event">Next Events</span>
-              <h4 class="next--event__title">Weekly cleaning program</h4>
-            </div>
-            <a href="./pages/Event.html" class="event--link">
-              <svg width="19" height="16" viewBox="0 0 19 16" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M18.4571 8.70711C18.8476 8.31658 18.8476 7.68342 18.4571 7.29289L12.0931 0.928933C11.7026 0.538409 11.0695 0.538409 10.6789 0.928933C10.2884 1.31946 10.2884 1.95262 10.6789 2.34315L16.3358 8L10.6789 13.6569C10.2884 14.0474 10.2884 14.6805 10.6789 15.0711C11.0695 15.4616 11.7026 15.4616 12.0931 15.0711L18.4571 8.70711ZM0.25 9L17.75 9L17.75 7L0.25 7L0.25 9Z">
-                </path>
-              </svg>
-            </a>
-          </li>
-        </ul>
-      </div>
-
-    </div>
-  </section>
-
-  <footer>
-    <div class="container">
-      <div class="footer-flex">
-        <div class="footer-img">
-          <img src="../images/home/logo-2.svg" alt="none" />
-        </div>
-        <div class="footer-menu">
-          <h4>
-            <ul>
-              <li><a>Our team</a></li>
-            </ul>
-          </h4>
-          <ul>
-            <li><a href="./about-us.html">About us</a></li>
-            <li><a href="./about-us.html">Team</a></li>
-            <li><a href="./what-we-do.html">What we do</a></li>
-            <li><a href="./contact-us.html">Contact</a></li>
-          </ul>
-        </div>
-
-        <div class="footer-menu">
-          <h4>
-            <ul>
-              <li><a href="#">More</a></li>
-            </ul>
-          </h4>
-          <ul>
-            <li><a href="./project-read-more.html">Projects</a></li>
-            <li><a href="./event-read-more.html">Events</a></li>
-            <li><a href="./donation.html">Donate</a></li>
-            <li><a href="./blog-post-read-more.html">Blog</a></li>
-          </ul>
-        </div>
-
-        <div class="footer-menu">
-          <h4>
-            <ul>
-              <li><a href="#">Connect </a></li>
-            </ul>
-          </h4>
-          <ul>
-            <li>
-              <a
-                href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F%3Flocale2%3Duz_UZ">Facebook</a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com/accounts/login/">Instagram</a>
-            </li>
-            <li><a href="https://twitter.com/explore">Twitter</a></li>
-            <li><a href="https://uz.linkedin.com/">Linkdin </a></li>
-          </ul>
-        </div>
-        <div>
-          <div class="h4text">
-            <h4>Subscribe to get latest updates</h4>
-          </div>
-          <div class="input-flex">
-            <div class="input-brand">
-              <form>
-                <input type="email" placeholder="Your email" />
-              </form>
-              <button type="submit">Subscribe</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
-  <script src="../js/main.js"></script>
-</body>
-
+    </footer>
+    <script src="../js/main.js"></script>
+  </body>
 </html>
