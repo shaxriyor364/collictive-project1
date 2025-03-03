@@ -12,7 +12,6 @@ modeBtn.addEventListener("click", function () {
   document.body.classList.toggle("dark");
 });
 
-
 const loading = document.getElementById("loading");
 
 const loadingDuration = 5000; // 1.8s
@@ -20,3 +19,6 @@ const loadingDuration = 5000; // 1.8s
 setTimeout(() => {
   loading.classList.add("loading-none");
 }, loadingDuration);
+
+// AOS
+AOS.init();
