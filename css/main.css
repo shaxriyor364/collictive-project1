@@ -16,7 +16,26 @@
   --color-white: #ffffff;
   --color-gray52: #525560;
   --color-black: #0b0706;
+  --color-green: #70c174;
+  --color-green-slow: #bef3c0;
+  --color-green-tertiary: #eff7f2;
+  --Primary-text: #1d2130;
+  --Off-white: #ebf0f9;
+  --Border: #e5e5e5;
 }
+
+.dark {
+  --color-white: #272424;
+  --color-gray52: hsl(249, 7%, 38%);
+  --color-black: hsl(142, 27%, 94%);
+  --color-green: hsl(0, 84%, 10%);
+  --color-green-slow: #292e2a;
+  --color-green-tertiary: #4916e3;
+  --Primary-text: #151617;
+  --Off-white: #292a26;
+  --Border: #43fffc;
+}
+
 header nav {
   padding: 19px 0;
   background-color: var(--color-white);
@@ -55,6 +74,9 @@ header nav {
   justify-content: center;
   gap: 20px;
 }
+.hamburger {
+  display: none;
+}
 @media (max-width: 740px) {
   .menu-flex-3 {
     flex-direction: column;
@@ -64,12 +86,22 @@ header nav {
     justify-content: center;
     align-items: center;
   }
+  #hamburger {
+    display: flex;
+  }
+  .menu-flex-3 {
+    display: none;
+  }
 }
 @media (max-width: 1050px) {
   .nav-menu ul {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+  }
+
+  .active {
+    display: flex !important;
   }
 }
 footer {

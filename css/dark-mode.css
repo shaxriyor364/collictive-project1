@@ -1,4 +1,4 @@
-/* .switch {
+.switch {
   font-size: 17px;
   position: relative;
   display: inline-block;
@@ -40,4 +40,4 @@
 
 .switch input:checked + .slider:before {
   transform: translateX(1.5em);
-} */
+}
