@@ -444,7 +444,7 @@ header nav {
   transform: skew(-21deg);
 }
 
-span {
+.span_2{
   display: inline-block;
   transform: skew(21deg);
 }
